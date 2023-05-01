@@ -6,32 +6,53 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+p {
+    font-size: 18px;
+}
+
+.subtitles-h2 {
+    margin-bottom: 1.5rem;
+    font-size: 2.7em;
+    font-weight: 600;
+    color: #0A8238;
+}
+
 .text-mute {
     color: grey;
 }
 
-
+main.container-fluid {
+    overflow: auto;
+}
 
 /* Boton */
-button.btn.btn-primary {
+.btn.btn-primary {
     border: none;
     background-color: #FF8038;
     padding: 18px 46px;
 }
-button.btn.btn-primary:hover {
+.btn.btn-primary:hover {
     border: none;
     background-color: #ff711f;
 }
-button.btn.btn-primary:active {
+.btn.btn-primary:active {
     border: none;
     background-color: #ea5c09;
 }
-button.btn.btn-primary:focus-visible {
+.btn.btn-primary:focus-visible {
     border: none;
     background-color: #ff711f;
 }
 
 /* HEADER */
+
+.header {
+    background-color: white;
+}
+
+header.header > div {
+    margin: 0;
+}
 
 div.img-logo-div img.img-logo {
     width: 40px;
@@ -50,8 +71,8 @@ li.nav-item {
 }
 
 a.nav-link {
-    font-size: 12px;
-    padding: 1.5rem 2.5rem;
+    font-size: 15px;
+    padding: 2.3rem 2.5rem;
     background-color: #D1522C;
     color: white;
 }
@@ -77,26 +98,40 @@ a.nav-link:target {
 }
 
 .boton-contactanos {
-    font-size: 12px;
+    font-size: 15px;
 }
 
 /* Home */
- .h1-home {
-    margin-top: 2.4rem;
-    font-size: 2.5rem;
+
+.home {
+    margin-top: 6rem;
+}
+
+ h1.h1-home {
+    margin-top: 2.5rem;
+    margin-bottom: 0.7rem;
+    font-size: 3.6em;
     color: #0A8238;
  }
-
- .eslogan-home {
+.eslogan-home {
+    
+    margin: 0;
+    margin-bottom: 1rem; 
+}
+.eslogan-home p {
     font-size: 14px;
- }
-
+    border: 2px solid #A2302D;
+    padding: 0.1rem 0.5rem;
+    border-top: none;
+    border-bottom: none;
+    display: inline-block;
+}
 
 #carousel-home{
-    background-color: #f588493e;
+    background-color: #f5884900;
 }
 .carousel-inner {
-    height: 60vh;
+    height: 68vh;
 }
 .carousel-item {
     
@@ -104,6 +139,113 @@ a.nav-link:target {
 .img-carousel {
     height: fit-content;
 }
+
+
+/* separador-junto-posadas */
+
+.separador-junto-posadas {
+    background-color: #DA7A51;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+.separador-junto-posadas p {
+    margin: 0;
+}
+
+.separador-junto-posadas p span {
+    font-weight: bold;
+}
+
+/* Quienes Somos */
+
+.quienes-somos {
+    background-color: #EAEAEA;
+    padding: 3rem;
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+}
+
+.img-div-quienes-somos img {
+    width: 80%;
+}
+
+.quienes-somos-text {
+    border-left: 3px solid #A2302D;
+    padding: 2rem;
+    text-align: center;
+}
+
+.quienes-somos-text p {
+    width: 500px;
+}
+
+/* Actividades del Club */
+
+.actividades-club {
+    padding: 3rem;
+    padding-top: 4rem;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.actividades-club h2 {
+    padding-bottom: 2rem;
+}
+.actividades-deportes {
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+.actividades-deportes div  {
+    width: 300px;
+    margin-bottom: 1em;    
+}
+.actividades-deportes div img {
+    width: 100%;
+}
+
+.actividades-deportes p {
+    font-weight: 600;
+    margin: 0;
+}
+
+.actividades-deportes p.text-mute {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+}
+
+/* aca-estamos */
+.aca-estamos {
+    background-color: rgb(166, 97, 57);
+    padding: 5.5rem;
+}
+.h2-aca-estamos {
+    color: white;
+}
+
+.aca-estamos-text p {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #333333;
+}
+
+/* Contactanos section */
+
+.foto-contactanos {
+    background-image: url("../public/img/glenn-carstens-peters-npxXWgQ33ZQ-unsplash\(1\)\ 1.png");
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.contactanos-h2 {
+    color: black;
+}
+
 
 
 @media ( max-width: 992px ) {
