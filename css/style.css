@@ -1,0 +1,134 @@
+@font-face { font-family: Montserrat; 
+    src: url('./Montserrat/Montserrat-VariableFont_wght.ttf'); } 
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-mute {
+    color: grey;
+}
+
+
+
+/* Boton */
+button.btn.btn-primary {
+    border: none;
+    background-color: #FF8038;
+    padding: 18px 46px;
+}
+button.btn.btn-primary:hover {
+    border: none;
+    background-color: #ff711f;
+}
+button.btn.btn-primary:active {
+    border: none;
+    background-color: #ea5c09;
+}
+button.btn.btn-primary:focus-visible {
+    border: none;
+    background-color: #ff711f;
+}
+
+/* HEADER */
+
+div.img-logo-div img.img-logo {
+    width: 40px;
+}
+
+ul.navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+li.nav-item {
+    width: 100%;
+    
+    
+}
+
+a.nav-link {
+    font-size: 12px;
+    padding: 1.5rem 2.5rem;
+    background-color: #D1522C;
+    color: white;
+}
+a.nav-link:hover {
+    background-color: #c34d29;
+    color: white;
+}
+a.nav-link:active {
+    background-color: #bd3b13;
+    color: white;
+}
+a.nav-link:focus-visible {
+    background-color: #bd3b13;
+    color: white;
+}
+a.nav-link:focus {
+    background-color: #bd3b13;
+    color: white;
+}
+a.nav-link:target {
+    background-color: #bd3b13;
+    color: white;
+}
+
+.boton-contactanos {
+    font-size: 12px;
+}
+
+/* Home */
+ .h1-home {
+    margin-top: 2.4rem;
+    font-size: 2.5rem;
+    color: #0A8238;
+ }
+
+ .eslogan-home {
+    font-size: 14px;
+ }
+
+
+#carousel-home{
+    background-color: #f588493e;
+}
+.carousel-inner {
+    height: 60vh;
+}
+.carousel-item {
+    
+}
+.img-carousel {
+    height: fit-content;
+}
+
+
+@media ( max-width: 992px ) {
+    .logo-port-sm {
+        background-color: #d1532cc7;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .links-collapsed {
+        position: absolute;
+        top: 100%;
+    }
+}
+
+@media ( max-width: 768px) {
+    button.btn.btn-primary {
+        font-size: 14px;
+        padding: 8px 24px;
+    }
+}
+
+@media ( max-width: 576px) {
+    button.btn.btn-primary {
+        font-size: 12px;
+        padding: 10px 16px;
+    }
+}
