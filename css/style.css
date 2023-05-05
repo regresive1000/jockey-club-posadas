@@ -15,6 +15,9 @@ p {
     font-size: 2.7em;
     font-weight: 600;
     color: #0A8238;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .text-mute {
@@ -24,9 +27,13 @@ p {
 main.container-fluid {
     overflow: auto;
 }
+.bold {
+    font-weight: 600;
+}
+
 
 /* Boton */
-.btn.btn-primary {
+.btn-primary {
     border: none;
     background-color: #FF8038;
     padding: 18px 46px;
@@ -54,8 +61,15 @@ header.header > div {
     margin: 0;
 }
 
-div.img-logo-div img.img-logo {
-    width: 40px;
+.img-logo-div a {
+    padding: 0;
+    margin: 0;
+}
+
+img.img-logo {
+
+    margin-bottom: 0px;
+    width: 104px;
 }
 
 ul.navbar-nav {
@@ -71,8 +85,8 @@ li.nav-item {
 }
 
 a.nav-link {
-    font-size: 15px;
-    padding: 2.3rem 2.5rem;
+    font-size: 14px;
+    padding: 2.8rem 1.8rem;
     background-color: #D1522C;
     color: white;
 }
@@ -108,9 +122,9 @@ a.nav-link:target {
 }
 
  h1.h1-home {
-    margin-top: 2.5rem;
+    margin-top: 2.6rem;
     margin-bottom: 0.7rem;
-    font-size: 3.6em;
+    font-size: 3em;
     color: #0A8238;
  }
 .eslogan-home {
@@ -132,12 +146,16 @@ a.nav-link:target {
 }
 .carousel-inner {
     height: 68vh;
+    padding: 0;
 }
 .carousel-item {
-    
+    width: 100%;
+    height: 100%;
 }
 .img-carousel {
-    height: fit-content;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 
@@ -167,17 +185,19 @@ a.nav-link:target {
 }
 
 .img-div-quienes-somos img {
-    width: 80%;
+    width: 100%;
+    margin-right: 2rem;
 }
 
 .quienes-somos-text {
     border-left: 3px solid #A2302D;
     padding: 2rem;
     text-align: center;
+    box-sizing: border-box;
 }
 
 .quienes-somos-text p {
-    width: 500px;
+    width: 400px;
 }
 
 /* Actividades del Club */
@@ -185,8 +205,7 @@ a.nav-link:target {
 .actividades-club {
     padding: 3rem;
     padding-top: 4rem;
-    width: 80%;
-    margin: auto;
+    
     text-align: center;
 }
 .actividades-club h2 {
@@ -200,11 +219,14 @@ a.nav-link:target {
     margin-bottom: 3rem;
 }
 .actividades-deportes div  {
-    width: 300px;
+    width: 230px;
+    height: 230px;
     margin-bottom: 1em;    
 }
 .actividades-deportes div img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .actividades-deportes p {
@@ -218,6 +240,58 @@ a.nav-link:target {
     margin: 0;
 }
 
+    /* modal */
+
+    .img-modal {
+        width: 250px;
+        height: 200px;
+    }
+    .modal-title {
+        color: #bd3b13;
+    }
+    .modal-body hr {
+        width: 100%;
+        color: rgba(128, 128, 128, 0.998);
+    }
+    .modal-bold-span {
+        font-size: 20px;
+        font-weight: 600;
+        color: #bd3b13;
+    }
+        /* hover */
+        .pato-modal div img {
+            transition: box-shadow 0.5s;
+        }
+        .pato-modal:hover div img:hover{
+            box-shadow: 2px 2px 10px 10px rgba(0, 0, 0, 0.2);
+        }
+        .salto-modal div img {
+            transition: box-shadow 0.5s;
+        }
+        .salto-modal:hover div img:hover{
+            box-shadow: 2px 2px 10px 10px rgba(0, 0, 0, 0.2);
+        }
+        .polo-modal div img {
+            transition: box-shadow 0.5s;
+        }
+        .polo-modal:hover div img:hover{
+            box-shadow: 2px 2px 10px 10px rgba(0, 0, 0, 0.2);
+        }
+        .equitacion-modal div img {
+            transition: box-shadow 0.5s;
+        }
+        .equitacion-modal:hover div img:hover{
+            box-shadow: 2px 2px 10px 10px rgba(0, 0, 0, 0.2);
+        }
+        .endurance-modal div img {
+            transition: box-shadow 0.5s;
+        }
+        .endurance-modal:hover div img:hover{
+            box-shadow: 2px 2px 10px 10px rgba(0, 0, 0, 0.2);
+        }
+
+
+
 /* aca-estamos */
 .aca-estamos {
     background-color: rgb(166, 97, 57);
@@ -227,28 +301,182 @@ a.nav-link:target {
     color: white;
 }
 
+.columna-direccion-y-boton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .aca-estamos-text p {
     font-size: 24px;
     font-weight: bolder;
     color: #333333;
 }
 
+#mapa {
+    width: 550px;
+    height: 650px;
+}
+
 /* Contactanos section */
 
 .foto-contactanos {
     background-image: url("../public/img/glenn-carstens-peters-npxXWgQ33ZQ-unsplash\(1\)\ 1.png");
-    height: 100%;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    height: auto;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .contactanos-h2 {
     color: black;
+    margin-top: 6rem;
+    margin-bottom: 38rem;
 }
 
+.contactanos-p {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.375);
+    width: fit-content;
+    margin-bottom: 6rem;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.formdiv-contactanos {
+    background-color: #FDF8F8;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 8rem;
+}
+.formdiv-contactanos form {
+    
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+.formdiv-contactanos form input {
+    height: 6rem;
+    border: none;
+}
+.formdiv-contactanos form textarea#consulta-form {
+    padding-bottom: 10rem;
+}
+.formdiv-contactanos form .submit-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formdiv-contactanos form div input[type=submit] {
+    width: fit-content;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin: 0;
+    padding: 18px 7rem;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+    /* llamanos-contacto */
+
+    .numero-telefono-form {
+        text-align: center;
+    }
+    .numero-telefono-form div{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .numero-telefono-form div p {
+        margin: 0;
+    }
 
 
-@media ( max-width: 992px ) {
+/* FOOTER */
+.footer-landing {
+    background-color: #333333;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 12px;
+    color: white;
+}
+
+.ul-footer {
+    margin: 0;
+    padding: 0;
+
+}
+
+ul li {
+    list-style: none;
+
+}
+
+.footer-div-p {
+    display: flex;
+    justify-content: flex-end;
+    justify-self: flex-end;
+    
+}
+.footer-div-p p {
+    margin: 0;
+    font-size: 12px;
+}
+
+@media ( max-width: 1200px ) {
+
+    /* header */
+
+    header.header {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    /* actividades deportes */
+
+    
+
+    .actividades-deportes {
+        margin-bottom: 10px;
+    }
+    
+    /* Aca estamos */
+
+    iframe#mapa {
+        width: 400px;
+        height: 500px;
+    }
+
+    .direccion-club {
+        width: 350px;
+        text-align: center;
+    }
+
+}
+
+@media ( max-width: 991px ) {
+
+    header.header {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    img.img-logo {
+        padding-top: 0.6rem;
+        padding-bottom: 0.6rem;
+    }
+
+    .nav-item a.nav-link {
+        padding: 1.8rem 1.8rem;
+    }
+
     .logo-port-sm {
         background-color: #d1532cc7;
         padding-top: 1rem;
@@ -259,18 +487,182 @@ a.nav-link:target {
         position: absolute;
         top: 100%;
     }
+
+    /* quienes somos */
+    .quienes-somos {
+        padding: 4rem 3rem;
+    }
+    .img-div-quienes-somos {
+        margin: 0;
+    }
+    .img-div-quienes-somos img {
+        margin: 0;
+    }
+    .quienes-somos-text {
+        border: none;
+    }
+
+    /* actividades club */
+
+    /* Aca Estamos */
+
+    .aca-estamos {
+        padding: 4rem 3rem;
+    }
+
+    .direccion-club {
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+
+    iframe#mapa {
+        width: 100%;
+        height: 400px;
+    }
+
+
 }
 
 @media ( max-width: 768px) {
-    button.btn.btn-primary {
+    a.btn.btn-primary {
         font-size: 14px;
-        padding: 8px 24px;
+        padding: 12px 30px;
     }
+
+    /* header */
+
+    img.img-logo {
+        width: 80px;
+    }
+
+
+    /* home */
+
+    h1.h1-home {
+        margin-top: 1rem;
+    }
+
+
+    /* actividades deportes */
+
+    .actividades-deportes div {
+        width: 200px;
+        height: 200px;
+    }
+
+    /* form contactanos */
+
+    .formdiv-contactanos {
+        padding: 4rem 3rem;
+    }
+
 }
 
 @media ( max-width: 576px) {
-    button.btn.btn-primary {
+    a.btn.btn-primary {
         font-size: 12px;
         padding: 10px 16px;
+    }
+
+    /* header */
+
+
+    
+    /* quienes somos */
+
+    .quienes-somos {
+        padding: 4rem 0rem;
+    }
+
+    .quienes-somos-text p {
+        width: 250px;
+    }
+
+    /* actividades club */
+
+    .actividades-deportes div {
+        width: 400px;
+        height: 400px;
+    }
+
+
+    /* form contactanos */
+
+    .subtitles-h2.contactanos-h2 {
+        margin-bottom: 22rem;
+    }
+
+    .formdiv-contactanos {
+        padding: 1rem;
+        
+    }
+
+    .submit-form input.btn.btn-primary {
+        padding: 0.5rem 1rem;
+        height: 3rem;
+    } 
+
+    /* footer */
+
+    .footer-landing {
+        padding: 0rem;
+        margin: 0;
+    }
+    ul.ul-footer {
+        padding: 0;
+        margin: 0;
+    }
+
+}
+
+@media ( max-width: 418px) {
+    
+    a.btn.btn-primary {
+        font-size: 10px;
+        padding: 10px 16px;
+    }
+    /* header */
+
+    img.img-logo {
+        width: 70px;
+    }
+
+    h1.h1-home {
+        margin-top: 0;
+    }
+
+    .header div {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* home */
+    .carousel-inner {
+        height: 45vh;
+    }
+
+    /* actividades club */
+    .actividades-deportes div {
+        width: 250px;
+        height: 250px;
+    }
+
+    /* aca estamos */
+    .aca-estamos {
+        padding: 1rem 0.5rem;
+    }
+
+}
+
+@media ( max-width: 418px) {
+    /* header */
+    img.img-logo {
+        margin-right: 1rem;
+    }
+
+    /* Quienes somos */
+
+    .quienes-somos {
+        padding: 2rem 0rem;
     }
 }
