@@ -1,5 +1,5 @@
 @font-face { font-family: Montserrat; 
-    src: url('./Montserrat/Montserrat-VariableFont_wght.ttf'); } 
+    src: url('./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf'); } 
 
 
 * {
@@ -321,7 +321,7 @@ a.nav-link:target {
 /* Contactanos section */
 
 .foto-contactanos {
-    background-image: url("../public/img/glenn-carstens-peters-npxXWgQ33ZQ-unsplash\(1\)\ 1.png");
+    background-image: url("./assets/images/comunicate-con-nosotros.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
