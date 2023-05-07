@@ -1,4 +1,4 @@
-import imagen from '../assets/images/quienes-somos.png'
+import imagen from '/quienes-somos.png'
 
 const QuienesSomos = () => {
   return (
@@ -11,7 +11,7 @@ const QuienesSomos = () => {
             <h2 className="subtitles-h2">¿Quienes Somos?</h2>
             <p>Company we are proud to deliver hight quality standarts. In natural enviroment production, delivery and flexibility. organic bio oil a special production from our farm. </p>
         </div>
-        <span id="actividades"></span>
+        <span id="actividades-hashlink"></span>
     </section>
   )
 }
