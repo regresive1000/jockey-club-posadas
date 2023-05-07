@@ -2,7 +2,7 @@ import { HashLink } from 'react-router-hash-link';
 
 const Footer = () => {
   return (
-    <footer className="row footer-landing">
+    <footer className="row no-gutters footer-landing sticky-bottom">
         <div className="col-12 col-lg-4"></div>
         <div className="footer-div-ul-links mb-2 col-12 col-lg-4">
             <ul className="ul-footer d-none d-sm-flex flex-column flex-sm-row justify-content-between align-items-center">

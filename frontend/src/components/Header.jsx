@@ -6,7 +6,7 @@ import { HashLink } from 'react-router-hash-link';
 const Header = () => {
   return (
     
-    <header className="row header d-flex justify-content-between fixed-top logo-port-sm">
+    <header className="row no-gutters header d-flex justify-content-between fixed-top logo-port-sm">
         
         <div className="img-logo-div col-0 col-lg-2 d-none d-lg-flex justify-content-center align-items-center">
             <HashLink to={"/#"}>

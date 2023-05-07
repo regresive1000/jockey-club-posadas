@@ -2,7 +2,7 @@ import imagen from '/quienes-somos.png'
 
 const QuienesSomos = () => {
   return (
-    <section className="quienes-somos row d-flex justify-content-between justify-content-lg-evenly justify-content-xl-center " id="quienes-somos">
+    <section className="quienes-somos no-gutters row d-flex justify-content-between justify-content-lg-evenly justify-content-xl-center " id="quienes-somos">
         <div className="img-div-quienes-somos col-12 col-md-6 col-lg-5 col-lg-4 d-flex justify-content-center align-items-center">
             <img src={imagen} alt="" />
         </div>

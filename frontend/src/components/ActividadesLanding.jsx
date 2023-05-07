@@ -2,7 +2,7 @@ const ActividadesLanding = () => {
   return (
     
     
-    <section className="row actividades-club d-flex justify-content-center" >
+    <section className="row no-gutters actividades-club d-flex justify-content-center" >
 
         
 

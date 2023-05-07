@@ -1,7 +1,7 @@
 
 const AcaEstamosLanding = () => {
   return (
-    <section className="aca-estamos row d-flex justify-content-evenly" >
+    <section className="aca-estamos row no-gutters d-flex justify-content-evenly" >
         <div className="direccion-club col-12 col-lg-4 d-flex justify-content-evenly align-items-center align-items-md-start flex-column flex-sm-row flex-lg-column text-center row">
             <h2 className="subtitles-h2 h2-aca-estamos text-center col-12 col-sm-6 col-lg-12">¡Aca Estamos!</h2>
 
