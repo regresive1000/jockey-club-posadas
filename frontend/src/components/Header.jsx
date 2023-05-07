@@ -1,16 +1,17 @@
-import logo from '../assets/images/logo.png';
+import logo from '/logo.png';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 
 const Header = () => {
   return (
     
-    <header className="row header d-flex justify-content-between fixed-top logo-port-sm">
+    <header className="row no-gutters header d-flex justify-content-between fixed-top logo-port-sm">
         
         <div className="img-logo-div col-0 col-lg-2 d-none d-lg-flex justify-content-center align-items-center">
-            <Link to={"/#"}>
+            <HashLink to={"/#"}>
                 <img className="img-logo d-none d-lg-block" src={logo} alt="logo" />
-            </Link>
+            </HashLink>
         </div>
     
 
@@ -23,24 +24,24 @@ const Header = () => {
                 <div className="collapse navbar-collapse links-collapsed" id="navbarText">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <Link to={'/#quienes-somos'} className="nav-link" aria-current="page">
+                            <HashLink to={'/#quienes-somos'} className="nav-link" aria-current="page">
                                 Quienes Somos
-                            </Link>
+                            </HashLink>
                         </li>
                         <li className="nav-item">
-                            <Link to={"#como-llegar"} className="nav-link" aria-current="page">
-                                Como Llegar
-                            </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link  to={"#actividades"} className="nav-link" aria-current="page">
+                            <HashLink to={'/#actividades-hashlink'} className="nav-link" aria-current="page">
                                 Actividades
-                            </Link>
+                            </HashLink>
                         </li>
                         <li className="nav-item">
-                            <Link to={"#institucional"} className="nav-link" aria-current="page">
+                            <HashLink to={"/#como-llegar"} className="nav-link" aria-current="page">
+                                Como Llegar
+                            </HashLink>
+                        </li>
+                        <li className="nav-item">
+                            <HashLink to={"/institucional"} className="nav-link" aria-current="page">
                                 Institucional
-                            </Link>
+                            </HashLink>
                         </li>
                     </ul>
                 </div>
@@ -50,19 +51,16 @@ const Header = () => {
 
 
         <div className=" img-logo-div col-3 col-lg-0 d-flex d-lg-none d-flex justify-content-center align-items-center">
-            <Link to={"/#"}>
-                <img src={logo} alt="logo de jockey club" />
-            </Link>
-            <a href="#">
-                <img className="img-logo" src={logo} alt="logo" />
-            </a>
+            <HashLink to={"/#"}>
+                <img className="img-logo" src={logo} alt="logo de jockey club" />
+            </HashLink>
         </div>
 
     
         <div className="col-4 col-lg-2 d-flex justify-content-end justify-content-lg-center align-items-center">
-            <Link  to={"#contactanos-form"} className="boton-contactanos btn btn-primary">
+            <HashLink  to={"/#contactanos-form"} className="boton-contactanos btn btn-primary">
                 Contactanos
-            </Link>
+            </HashLink>
         </div>
     
     </header>

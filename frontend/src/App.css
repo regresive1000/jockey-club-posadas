@@ -60,7 +60,11 @@ main.container-fluid {
 header.header > div {
     margin: 0;
 }
-
+/*
+.img-logo-div a img {
+    display: none;
+}
+*/
 .img-logo-div a {
     padding: 0;
     margin: 0;
@@ -145,7 +149,7 @@ a.nav-link:target {
     background-color: #f5884900;
 }
 .carousel-inner {
-    height: 68vh;
+    height: 62vh;
     padding: 0;
 }
 .carousel-item {
@@ -321,7 +325,7 @@ a.nav-link:target {
 /* Contactanos section */
 
 .foto-contactanos {
-    background-image: url("./assets/images/comunicate-con-nosotros.png");
+    background-image: url("/comunicate-con-nosotros.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
@@ -414,9 +418,16 @@ a.nav-link:target {
 
 }
 
-ul li {
+ul.ul-footer li {
     list-style: none;
-
+}
+ul.ul-footer li a {
+    text-decoration: none;
+    color: white;
+}
+ul.ul-footer li a:active {
+    text-decoration: none;
+    color: white;
 }
 
 .footer-div-p {
@@ -666,3 +677,6 @@ ul li {
         padding: 2rem 0rem;
     }
 }
+
+
+

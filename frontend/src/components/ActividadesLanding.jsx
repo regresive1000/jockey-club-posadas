@@ -1,9 +1,14 @@
 const ActividadesLanding = () => {
   return (
-    <section className="row actividades-club d-flex justify-content-center" >
+    
+    
+    <section className="row no-gutters actividades-club d-flex justify-content-center" >
+
+        
+
         <h2 className="subtitles-h2 col-12">Actividades del Club</h2>
         <div className="col-12 col-lg-8 row actividades-club-divs d-flex justify-content-center">
-
+        
 
             <div className="actividades-deportes pato-modal col-12 col-sm-6 col-xl-6" data-bs-toggle="modal" data-bs-target="#pato-modal">
                 <div>
@@ -71,7 +76,6 @@ const ActividadesLanding = () => {
             </div>
 
 
-
             <div className="actividades-deportes polo-modal col-12 col-sm-6 col-xl-4" data-bs-toggle="modal" data-bs-target="#polo-modal">
                 <div>
                     <img src="https://images.unsplash.com/photo-1553284966-19b8815c7817?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="" />
@@ -134,7 +138,6 @@ const ActividadesLanding = () => {
                   </div>
                 </div>
             </div>
-
 
             <div className="actividades-deportes endurance-modal col-12 col-sm-6 col-xl-4" data-bs-toggle="modal" data-bs-target="#endurance-modal">
                 <div>

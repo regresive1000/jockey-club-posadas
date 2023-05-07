@@ -1,7 +1,7 @@
 const Home = () => {
   return (
 
-    <section className="row home text-center">
+    <section className="row no-gutters home text-center">
 
         <div className="col p-0">
             <h1 className="h1-home">Jockey Club Posadas</h1>

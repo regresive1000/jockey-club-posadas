@@ -1,6 +1,6 @@
 const ContactoLanding = () => {
   return (
-    <section className="row form-contactanos">
+    <section className="row no-gutters form-contactanos">
         <div className="foto-contactanos col-12 col-lg-6 text-center">
             <h2 className="subtitles-h2 contactanos-h2">Envíanos tu Pregunta</h2>
             <p className="contactanos-p">Nuestro Soporte te Respondera en la Brevedad</p>
