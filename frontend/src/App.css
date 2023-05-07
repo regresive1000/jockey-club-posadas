@@ -571,8 +571,8 @@ ul.ul-footer li a:active {
 
 @media ( max-width: 576px) {
     a.btn.btn-primary {
-        font-size: 12px;
-        padding: 10px 16px;
+        font-size: 14px;
+        padding: 12px 20px;
     }
 
     /* header */
@@ -628,10 +628,6 @@ ul.ul-footer li a:active {
 
 @media ( max-width: 418px) {
     
-    a.btn.btn-primary {
-        font-size: 10px;
-        padding: 10px 16px;
-    }
     /* header */
 
     img.img-logo {

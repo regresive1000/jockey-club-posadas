@@ -50,7 +50,10 @@
 @media ( max-width: 576px ) {
 
     .article {
-        padding: 1rem;
+        
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 10em;
     }
 
     .tarjeta {
@@ -60,6 +63,12 @@
 }
 
 @media ( max-width: 294px) {
+    .article {
+        
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 10em;
+    }
     .tarjeta {
         flex-direction: column;
     }

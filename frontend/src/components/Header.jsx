@@ -1,9 +1,14 @@
 import logo from '/logo.png';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
 
 const Header = () => {
+
+    const location = useLocation()
+    const parametro = window.location.pathname;
+    
+
   return (
     
     <header className="row no-gutters header d-flex justify-content-between fixed-top logo-port-sm">
@@ -23,6 +28,19 @@ const Header = () => {
                 </button>
                 <div className="collapse navbar-collapse links-collapsed" id="navbarText">
                     <ul className="navbar-nav">
+
+                        {(parametro === '/institucional')
+                            ?
+                            (
+                            <li className="nav-item">
+                                <HashLink to={'/#'} className="nav-link" aria-current="page">
+                                    Inicio
+                                </HashLink>
+                            </li>)
+                            :   []
+                        }
+                        
+
                         <li className="nav-item">
                             <HashLink to={'/#quienes-somos'} className="nav-link" aria-current="page">
                                 Quienes Somos
@@ -38,11 +56,19 @@ const Header = () => {
                                 Como Llegar
                             </HashLink>
                         </li>
-                        <li className="nav-item">
-                            <HashLink to={"/institucional"} className="nav-link" aria-current="page">
-                                Institucional
-                            </HashLink>
-                        </li>
+
+                        {(parametro !== '/institucional')
+                            ?
+                            (
+                            <li className="nav-item">
+                                <HashLink to={"/institucional"} className="nav-link" aria-current="page">
+                                    Institucional
+                                </HashLink>
+                            </li>)
+                            :   []
+                        }
+                        
+                        
                     </ul>
                 </div>
 

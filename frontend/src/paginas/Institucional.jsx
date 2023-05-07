@@ -1,5 +1,6 @@
 import InstitucionalCSS from './css/Institucional.module.css'
 
+
 const Institucional = () => {
   return (
     <article className={`${InstitucionalCSS.article} row`}>
