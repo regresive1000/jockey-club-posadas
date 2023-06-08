@@ -1,4 +1,4 @@
-import home1 from '/home-1.jpg'
+import home1 from '/home-1.png'
 import home2 from '/home-2.jpg'
 import home3 from '/home-3.jpg'
 
@@ -17,13 +17,13 @@ const Home = () => {
     
             <div id="carousel-home" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
-                  <div className="carousel-item active">
-                    <img src={home1} className="img-carousel" alt="imagen del club" />
-                  </div>
                   <div className="carousel-item">
                     <img src={home2} className="img-carousel" alt="imagen del club" />
                   </div>
                   <div className="carousel-item">
+                    <img src={home1} className="img-carousel" alt="imagen del club" />
+                  </div>
+                  <div className="carousel-item active">
                     <img src={home3} className="img-carousel" alt="imagen del club" />
                   </div>
                 </div>
