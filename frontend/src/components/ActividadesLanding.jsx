@@ -1,3 +1,9 @@
+import pato from '/patow.jpg'
+import salto from '/salto.jpg'
+import endurance from '/endurance.jpg'
+import equitacion from '/equitacion.jpg'
+import polo from '/polo.jpg'
+
 const ActividadesLanding = () => {
   return (
     
@@ -12,7 +18,7 @@ const ActividadesLanding = () => {
 
             <div className="actividades-deportes pato-modal col-12 col-sm-6 col-xl-6" data-bs-toggle="modal" data-bs-target="#pato-modal">
                 <div>
-                    <img src="https://images.unsplash.com/photo-1553284966-19b8815c7817?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="" />
+                    <img src={pato} alt="" />
                 </div>
                 <p className="title-actividad-pato">Pato</p>
             </div>
@@ -24,9 +30,9 @@ const ActividadesLanding = () => {
                       <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div className="modal-body">
-                        <img className="img-modal mb-4" src="https://images.unsplash.com/photo-1553284966-19b8815c7817?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="" />
+                        <img className="img-modal mb-4" src={pato} alt="" />
                         
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi aspernatur eius quod, libero vero cum unde debitis corrupti est dicta!</p>
+                        <p>El pato fue denominado como “deporte nacional” en 1953. Su objetivo, precisamente, es embocar el "pato" en el aro del equipo adversario.</p>
                         <p> <span className="modal-bold-span">Lunes</span> 8:00hs - 18:00hs </p>
                         <p> <span className="modal-bold-span">Lunes</span> 8:00hs - 18:00hs </p>
                         <p> <span className="modal-bold-span">Lunes</span> 8:00hs - 18:00hs </p>
@@ -46,7 +52,7 @@ const ActividadesLanding = () => {
 
             <div className="actividades-deportes salto-modal col-12 col-sm-6 col-xl-6" data-bs-toggle="modal" data-bs-target="#salto-modal">
                 <div>
-                    <img src="https://images.unsplash.com/photo-1553284966-19b8815c7817?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="" />
+                    <img src={salto} alt="" />
                 </div>
                 <p className="title-actividad-salto">Salto</p>
             </div>
@@ -58,9 +64,9 @@ const ActividadesLanding = () => {
                       <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div className="modal-body">
-                        <img className="img-modal mb-4" src="https://images.unsplash.com/photo-1553284966-19b8815c7817?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="" />
+                        <img className="img-modal mb-4" src={salto} alt="" />
                         
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi aspernatur eius quod, libero vero cum unde debitis corrupti est dicta!</p>
+                        <p>Es un deporte que permite el contacto con la naturaleza, ya que se practica en el exterior, y fomenta la comunicación con los caballos.</p>
                         <p> <span className="modal-bold-span">Lunes</span> 8:00hs - 18:00hs </p>
                         <p> <span className="modal-bold-span">Lunes</span> 8:00hs - 18:00hs </p>
                         <p> <span className="modal-bold-span">Lunes</span> 8:00hs - 18:00hs </p>
@@ -78,7 +84,7 @@ const ActividadesLanding = () => {
 
             <div className="actividades-deportes polo-modal col-12 col-sm-6 col-xl-4" data-bs-toggle="modal" data-bs-target="#polo-modal">
                 <div>
-                    <img src="https://images.unsplash.com/photo-1553284966-19b8815c7817?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="" />
+                    <img src={polo} alt="" />
                 </div>
                 <p className="title-actividad-polo">Polo</p>
             </div>
@@ -90,9 +96,9 @@ const ActividadesLanding = () => {
                       <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div className="modal-body">
-                        <img className="img-modal mb-4" src="https://images.unsplash.com/photo-1553284966-19b8815c7817?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="" />
+                        <img className="img-modal mb-4" src={polo} alt="" />
                         
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi aspernatur eius quod, libero vero cum unde debitis corrupti est dicta!</p>
+                        <p>Llegó al territorio argentino en 1875. El objetivo es golpear una pelota de madera con un mazo y llevarla hasta la portería del rival.</p>
                         <p> <span className="modal-bold-span">Lunes</span> 8:00hs - 18:00hs </p>
                         <p> <span className="modal-bold-span">Lunes</span> 8:00hs - 18:00hs </p>
                         <p> <span className="modal-bold-span">Lunes</span> 8:00hs - 18:00hs </p>
@@ -110,7 +116,7 @@ const ActividadesLanding = () => {
 
             <div className="actividades-deportes equitacion-modal col-12 col-sm-6 col-xl-4" data-bs-toggle="modal" data-bs-target="#equitacion-modal">
                 <div>
-                    <img src="https://images.unsplash.com/photo-1553284966-19b8815c7817?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="" />
+                    <img src={equitacion} alt="" />
                 </div>
                 <p className="title-actividad-equitacion">Equitación</p>
             </div>
@@ -122,9 +128,9 @@ const ActividadesLanding = () => {
                       <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div className="modal-body">
-                        <img className="img-modal mb-4" src="https://images.unsplash.com/photo-1553284966-19b8815c7817?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="" />
+                        <img className="img-modal mb-4" src={equitacion} alt="" />
                         
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi aspernatur eius quod, libero vero cum unde debitis corrupti est dicta!</p>
+                        <p>Es el arte de mantener el control preciso sobre un caballo, así como los diferentes modos de manejarlo.</p>
                         <p> <span className="modal-bold-span">Lunes</span> 8:00hs - 18:00hs </p>
                         <p> <span className="modal-bold-span">Lunes</span> 8:00hs - 18:00hs </p>
                         <p> <span className="modal-bold-span">Lunes</span> 8:00hs - 18:00hs </p>
@@ -141,7 +147,7 @@ const ActividadesLanding = () => {
 
             <div className="actividades-deportes endurance-modal col-12 col-sm-6 col-xl-4" data-bs-toggle="modal" data-bs-target="#endurance-modal">
                 <div>
-                    <img src="https://images.unsplash.com/photo-1553284966-19b8815c7817?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="" />
+                    <img src={endurance} alt="" />
                 </div>
                 <p className="title-actividad-endurance">Endurance</p>
                 <p className="text-mute">Deportes Escuestres</p>
@@ -154,9 +160,9 @@ const ActividadesLanding = () => {
                       <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div className="modal-body">
-                        <img className="img-modal mb-4" src="https://images.unsplash.com/photo-1553284966-19b8815c7817?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="" />
+                        <img className="img-modal mb-4" src={endurance} alt="" />
                         
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi aspernatur eius quod, libero vero cum unde debitis corrupti est dicta!</p>
+                        <p>Es un deporte de resistencia cronometrado sobre una ruta marcada. En este deporte se pone a prueba la velocidad, habilidad y la resistencia física y psicológica de caballo y jinete, ya que ambos deben recorrer grandes distancias en un día, a través de los más diversos terrenos y contra reloj.</p>
                         <p> <span className="modal-bold-span">Lunes</span> 8:00hs - 18:00hs </p>
                         <p> <span className="modal-bold-span">Lunes</span> 8:00hs - 18:00hs </p>
                         <p> <span className="modal-bold-span">Lunes</span> 8:00hs - 18:00hs </p>

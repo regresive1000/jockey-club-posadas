@@ -26,8 +26,8 @@ const ContactoLanding = () => {
             <div className="numero-telefono-form">
                 <p className="llamanos-numero-form">O Llamanos a Nuestro Numero de Telefono:</p>
                 <div>
-                    <p className="bold">9999 - 999999</p>
-                    <p className="bold">9999 - 999999</p>
+                    <p className="bold">(351) 212-3814</p>
+                    <p className="bold d-none">9999 - 999999</p>
                 </div>
             </div>
         </div>

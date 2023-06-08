@@ -1,3 +1,7 @@
+import home1 from '/home-1.jpg'
+import home2 from '/home-2.jpg'
+import home3 from '/home-3.jpg'
+
 const Home = () => {
   return (
 
@@ -14,13 +18,13 @@ const Home = () => {
             <div id="carousel-home" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                   <div className="carousel-item active">
-                    <img src="https://images.unsplash.com/photo-1672143015251-4f2da497e32d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1461&q=80" className="img-carousel" alt="imagen del club" />
+                    <img src={home1} className="img-carousel" alt="imagen del club" />
                   </div>
                   <div className="carousel-item">
-                    <img src="https://images.unsplash.com/photo-1672143015251-4f2da497e32d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1461&q=80" className="img-carousel" alt="imagen del club" />
+                    <img src={home2} className="img-carousel" alt="imagen del club" />
                   </div>
                   <div className="carousel-item">
-                    <img src="https://images.unsplash.com/photo-1672143015251-4f2da497e32d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1461&q=80" className="img-carousel" alt="imagen del club" />
+                    <img src={home3} className="img-carousel" alt="imagen del club" />
                   </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carousel-home" data-bs-slide="prev">

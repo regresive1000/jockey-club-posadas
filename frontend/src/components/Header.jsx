@@ -61,9 +61,9 @@ const Header = () => {
                             ?
                             (
                             <li className="nav-item">
-                                <HashLink to={"/institucional"} className="nav-link" aria-current="page">
+                                <Link to={"/institucional"} className="nav-link" aria-current="page">
                                     Institucional
-                                </HashLink>
+                                </Link>
                             </li>)
                             :   []
                         }
