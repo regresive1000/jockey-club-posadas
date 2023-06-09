@@ -77,11 +77,14 @@ const ContactoLanding = () => {
                 </div>
             </form>
 
-            <div className={`parrafo text-center mb-3 bold`}>
+            
+
+            <div className={`mensajeparrafo parrafo text-center mb-3 bold`}>
                     {postSend ?
                         `Mensaje Enviado Correctamente 👏` 
                         : <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>}
             </div>
+
 
             <div className="numero-telefono-form">
                 <p className="llamanos-numero-form">O Llamanos a Nuestro Numero de Telefono:</p>

@@ -448,6 +448,11 @@ a.nav-link:target {
     font-size: 18px;
 }
 
+.mensajeparrafo {
+    opacity: 0;
+    transition: 1s;
+}
+
     /* llamanos-contacto */
 
     .numero-telefono-form {
@@ -672,6 +677,8 @@ ul.ul-footer li a:active {
         height: 3rem;
     } 
 
+
+
     /* footer */
 
     .footer-landing {
@@ -732,7 +739,6 @@ ul.ul-footer li a:active {
         padding: 2rem 0rem;
     }
 }
-
 
 
 
