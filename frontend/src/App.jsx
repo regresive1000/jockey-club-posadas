@@ -6,7 +6,7 @@ import './App.css';
 import LandingLayout from '../src/layout/LandingLayout';
 import Landing from './paginas/Landing';
 import Institucional from './paginas/Institucional';
-
+import Mensajes from './paginas/Mensajes';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,8 +17,12 @@ function App() {
         <Routes>
 
           <Route path="/" element={<LandingLayout />}>
-              <Route index element={<Landing />} />
-              <Route path='/institucional' element={<Institucional />} />
+            <Route index element={<Landing />} />
+            <Route path='/institucional' element={<Institucional />} />
+          </Route>
+
+          <Route path='/mensajes'>
+            <Route index element={<Mensajes />} />
           </Route>
 
         </Routes>
