@@ -32,11 +32,11 @@ const ActividadesLanding = () => {
                     <div className="modal-body">
                         <img className="img-modal mb-4" src={pato} alt="" />
                         
+                    
                         <p>El pato fue denominado como “deporte nacional” en 1953. Su objetivo, precisamente, es embocar el "pato" en el aro del equipo adversario.</p>
-                        <p> <span className="modal-bold-span">Lunes</span> 8:00hs - 18:00hs </p>
-                        <p> <span className="modal-bold-span">Lunes</span> 8:00hs - 18:00hs </p>
-                        <p> <span className="modal-bold-span">Lunes</span> 8:00hs - 18:00hs </p>
-                        <p> <span className="modal-bold-span">Lunes</span> 8:00hs - 18:00hs </p>
+                        <hr />
+                        <p> Para mas información de <span className="modal-bold-span">horarios comunicarse con el club mas abajo</span> </p>
+                        
                        
                     </div>
                     <div className="modal-footer">
@@ -67,10 +67,8 @@ const ActividadesLanding = () => {
                         <img className="img-modal mb-4" src={salto} alt="" />
                         
                         <p>Es un deporte que permite el contacto con la naturaleza, ya que se practica en el exterior, y fomenta la comunicación con los caballos.</p>
-                        <p> <span className="modal-bold-span">Lunes</span> 8:00hs - 18:00hs </p>
-                        <p> <span className="modal-bold-span">Lunes</span> 8:00hs - 18:00hs </p>
-                        <p> <span className="modal-bold-span">Lunes</span> 8:00hs - 18:00hs </p>
-                        <p> <span className="modal-bold-span">Lunes</span> 8:00hs - 18:00hs </p>
+                        <hr />
+                        <p> Para mas información de <span className="modal-bold-span">horarios comunicarse con el club mas abajo</span> </p>
                        
                     </div>
                     <div className="modal-footer">
@@ -99,10 +97,8 @@ const ActividadesLanding = () => {
                         <img className="img-modal mb-4" src={polo} alt="" />
                         
                         <p>Llegó al territorio argentino en 1875. El objetivo es golpear una pelota de madera con un mazo y llevarla hasta la portería del rival.</p>
-                        <p> <span className="modal-bold-span">Lunes</span> 8:00hs - 18:00hs </p>
-                        <p> <span className="modal-bold-span">Lunes</span> 8:00hs - 18:00hs </p>
-                        <p> <span className="modal-bold-span">Lunes</span> 8:00hs - 18:00hs </p>
-                        <p> <span className="modal-bold-span">Lunes</span> 8:00hs - 18:00hs </p>
+                        <hr />
+                        <p> Para mas información de <span className="modal-bold-span">horarios comunicarse con el club mas abajo</span> </p>
                        
                     </div>
                     <div className="modal-footer">
@@ -131,10 +127,8 @@ const ActividadesLanding = () => {
                         <img className="img-modal mb-4" src={equitacion} alt="" />
                         
                         <p>Es el arte de mantener el control preciso sobre un caballo, así como los diferentes modos de manejarlo.</p>
-                        <p> <span className="modal-bold-span">Lunes</span> 8:00hs - 18:00hs </p>
-                        <p> <span className="modal-bold-span">Lunes</span> 8:00hs - 18:00hs </p>
-                        <p> <span className="modal-bold-span">Lunes</span> 8:00hs - 18:00hs </p>
-                        <p> <span className="modal-bold-span">Lunes</span> 8:00hs - 18:00hs </p>
+                        <hr />
+                        <p> Para mas información de <span className="modal-bold-span">horarios comunicarse con el club mas abajo</span> </p>
                         
                     </div>
                     <div className="modal-footer">
@@ -163,10 +157,8 @@ const ActividadesLanding = () => {
                         <img className="img-modal mb-4" src={endurance} alt="" />
                         
                         <p>Es un deporte de resistencia cronometrado sobre una ruta marcada. En este deporte se pone a prueba la velocidad, habilidad y la resistencia física y psicológica de caballo y jinete, ya que ambos deben recorrer grandes distancias en un día, a través de los más diversos terrenos y contra reloj.</p>
-                        <p> <span className="modal-bold-span">Lunes</span> 8:00hs - 18:00hs </p>
-                        <p> <span className="modal-bold-span">Lunes</span> 8:00hs - 18:00hs </p>
-                        <p> <span className="modal-bold-span">Lunes</span> 8:00hs - 18:00hs </p>
-                        <p> <span className="modal-bold-span">Lunes</span> 8:00hs - 18:00hs </p>
+                        <hr />
+                        <p> Para mas información de <span className="modal-bold-span">horarios comunicarse con el club mas abajo</span> </p>
 
                     </div>
                     <div className="modal-footer">

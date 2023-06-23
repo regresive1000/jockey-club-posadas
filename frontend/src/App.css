@@ -774,4 +774,70 @@ ul.ul-footer li a:active {
 
 
 
+/* INSTITUCIONAL */
+
+
+.tarjeta {
+    background-color: white;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+.tarjeta:hover {
+    box-shadow: 1px 1px 3px 3px #d1532c61;
+    transition: 0.5s;
+}
+
+.tarjetaImg {
+    border: 1px solid rgb(236, 228, 228);
+    width: 100px;
+    height: 100px;
+    margin-right: 1rem;
+}
+
+.tarjetaNombre {
+    margin: 0;
+}
+
+.tarjetaCargo {
+    margin: 0;
+}
+
+
+@media ( max-width: 768px) {
+
+    .tarjeta {
+        
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+
+
+}
+
+@media ( max-width: 576px ) {
+
+    .article {
+        
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 10em;
+    }
+
+    .tarjeta {
+        flex-direction: row;
+    }
+
+}
+
+@media ( max-width: 294px) {
+    .article {
+        
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 10rem;
+    }
+    .tarjeta {
+        flex-direction: column;
+    }
+}
 
