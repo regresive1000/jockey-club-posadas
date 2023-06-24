@@ -144,7 +144,7 @@ const ActividadesLanding = () => {
                     <img src={endurance} alt="" />
                 </div>
                 <p className="title-actividad-endurance">Endurance</p>
-                <p className="text-mute">Deportes Escuestres</p>
+                {/* <p className="text-mute">Deportes Escuestres</p> */}
             </div>
             <div className="modal fade" id="endurance-modal" tabIndex="-1" aria-labelledby="endurance-modal" aria-hidden="true">
                 <div className="modal-dialog modal-dialog-centered">
